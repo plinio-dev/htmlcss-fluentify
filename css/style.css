@@ -13,40 +13,52 @@ header {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
 nav {
+  background-color: red;
   width: 100%;
   height: 57px;
+  position: relative;
 }
 .logo {
-  padding-top: 15px;
+  height: 57px;
   display: inline-block;
 }
 img {
+  top: 5px;
+  line-height: 57px;
   max-width: 100%;
 }
-img, ul {
-  vertical-align: bottom;
+.menu-sx, img, .menu-dx {
+  position: absolute;
+  line-height: 57px;
 }
 
-ul {
-  margin-bottom: 6px;
-  margin-left: 80px;
+.menu-sx {
+  left: 200px;
 }
+
 ul, li {
   display: inline-block;
 }
 
-ul li a {
+.menu-sx li a {
   margin-right: 20px;
   color: white;
   text-decoration: none;
   font-size: 9pt;
 }
 
-ul li:nth-of-type(5) {
-  margin-left: 200px;
+.menu-dx {
+  right: 0;
+}
+
+.menu-dx li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 9pt;
 }
