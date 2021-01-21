@@ -98,10 +98,29 @@ ul, li {
 
 .background {
   margin-top: 90px;
-  width: 105vw;
+  width: 105%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../img/background-header.png);
   background-position: right;
+}
+/* / intestazione */
+
+section {
+  background-color: hsl(0deg 0% 83%);
+}
+
+section h2 {
+  font-size: 25pt;
+  text-align: center;
+  padding-top: 50px;
+}
+
+section p {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 18pt;
+  text-align: center;
+  color: hsl(0deg 0% 54%);
 }
