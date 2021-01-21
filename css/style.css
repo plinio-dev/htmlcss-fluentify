@@ -13,7 +13,7 @@ header {
 }
 
 .wrapper {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -22,6 +22,11 @@ nav {
   height: 57px;
   position: relative;
 }
+
+a {
+  text-decoration: none;
+}
+
 .logo {
   height: 57px;
   display: inline-block;
@@ -44,9 +49,8 @@ ul, li {
 }
 
 .menu-sx li a {
-  margin-right: 20px;
   color: white;
-  text-decoration: none;
+  margin-right: 20px;
   font-size: 9pt;
 }
 
@@ -57,7 +61,6 @@ ul, li {
 .menu-dx li a {
   color: white;
   margin-left: 20px;
-  text-decoration: none;
   font-size: 9pt;
 }
 
@@ -71,6 +74,34 @@ ul, li {
   border-radius: 5px;
 }
 
-.bottone {
+.bottone1 {
   padding: 8px 15px;
+}
+
+.bottone2 {
+  margin-top: 20px;
+  font-size: 12pt;
+  color: white;
+  padding: 25px 20px;
+}
+.pay-off {
+  font-size: 32pt;
+  color: white;
+  width: 50%;
+  position: absolute;
+  top: 200px;
+}
+
+.pay-off h1 {
+  margin-bottom: 30px;
+}
+
+.background {
+  margin-top: 90px;
+  width: 105vw;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/background-header.png);
+  background-position: right;
 }
