@@ -18,7 +18,6 @@ header {
 }
 
 nav {
-  background-color: red;
   width: 100%;
   height: 57px;
   position: relative;
@@ -29,7 +28,6 @@ nav {
 }
 img {
   top: 5px;
-  line-height: 57px;
   max-width: 100%;
 }
 .menu-sx, img, .menu-dx {
@@ -61,4 +59,18 @@ ul, li {
   margin-left: 20px;
   text-decoration: none;
   font-size: 9pt;
+}
+
+.verde {
+  border-radius: 5px;
+  background-color: #7CBB02;
+}
+#login {
+  padding: 8px 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.bottone {
+  padding: 8px 15px;
 }
