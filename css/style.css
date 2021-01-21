@@ -7,3 +7,42 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* intestazione */
+header {
+  background-color: #0C325A;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  height: 57px;
+}
+.logo {
+  padding-top: 15px;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+img, ul {
+  vertical-align: bottom;
+}
+
+ul {
+  margin-bottom: 6px;
+  margin-left: 50px;
+}
+ul, li {
+  display: inline-block;
+}
+
+ul li a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 9pt;
+}
