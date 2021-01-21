@@ -34,15 +34,19 @@ img, ul {
 
 ul {
   margin-bottom: 6px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 ul, li {
   display: inline-block;
 }
 
 ul li a {
-  margin-right: 10px;
+  margin-right: 20px;
   color: white;
   text-decoration: none;
   font-size: 9pt;
+}
+
+ul li:nth-of-type(5) {
+  margin-left: 200px;
 }
