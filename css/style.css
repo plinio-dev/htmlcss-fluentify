@@ -11,12 +11,14 @@ body {
 header {
   position: relative;
   background-color: #0C325A;
+  overflow: hidden;
   height: 712px;
 }
 
 .wrapper {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 nav {
@@ -41,14 +43,17 @@ img {
   left: 200px;
 }
 
-ul, li {
+li {
   display: inline-block;
 }
 
-.menu-sx li a {
+.menu-sx li a, .menu-dx li a {
   color: white;
-  margin-right: 20px;
   font-size: 10pt;
+}
+
+.menu-sx li a {
+  margin-right: 20px;
 }
 
 .menu-dx {
@@ -56,14 +61,13 @@ ul, li {
 }
 
 .menu-dx li a {
-  color: white;
   margin-left: 20px;
-  font-size: 10pt;
 }
 
 .verde {
   border-radius: 5px;
   background-color: #7CBB02;
+  border: 1px solid #7CBB02;
 }
 #login {
   padding: 8px 25px;
@@ -76,7 +80,6 @@ ul, li {
 }
 
 .bottone2 {
-  margin-top: 20px;
   font-size: 12pt;
   color: white;
   padding: 25px 20px;
@@ -87,6 +90,7 @@ ul, li {
   width: 50%;
   position: absolute;
   top: 200px;
+  z-index: 5;
 }
 
 .pay-off h1 {
@@ -101,7 +105,7 @@ ul, li {
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../img/background-header.png);
-  background-position: right;
+  background-position: right bottom;
 }
 /* / intestazione */
 
