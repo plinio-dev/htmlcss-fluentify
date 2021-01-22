@@ -145,6 +145,11 @@ section p {
   width: calc(100% / 3);
 }
 
+.col-center {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .immagineleft {
   width: 100%;
   height: 200px;
@@ -152,7 +157,7 @@ section p {
 
 .col-left p, .col-center p, .col-right p {
   line-height: 35px;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 
@@ -183,9 +188,7 @@ hr.solid2 {
 }
 
 /* row 2 */
-
 .col2-left, .col2-center {
-  /* padding-bottom: 22px; */
   float: left;
   width: 50%;
 }
@@ -195,6 +198,10 @@ hr.solid2 {
   height: 500px;
 }
 
+.col2-left {
+  padding-bottom: 35px;
+
+}
 .col2-center {
   padding: 0 80px;
 }
@@ -210,4 +217,21 @@ hr.solid2 {
   font-size: 14pt;
   text-decoration: underline;
   color: #6893c3;
+}
+/* /row 2 */
+
+/* bottom */
+.bottom {
+  width: 80%;
+  margin: auto;
+}
+
+.bottom h3 {
+  display: inline-block;
+  padding: 70px 0;
+  font-size: 30pt;
+}
+
+.bottom ul {
+  display: inline-block;
 }
