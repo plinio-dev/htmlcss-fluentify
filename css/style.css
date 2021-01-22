@@ -109,6 +109,7 @@ li {
 }
 /* / intestazione */
 
+/* sezione centrale */
 section {
   background-color: hsl(0deg 0% 83%);
 }
@@ -125,4 +126,35 @@ section p {
   font-size: 18pt;
   text-align: center;
   color: hsl(0deg 0% 54%);
+}
+/* / sezione centrale */
+
+.corpo {
+  background-color: white;
+}
+
+.row1 {
+  /* background-color: grey; */
+}
+
+.col-left {
+
+}
+.col-left, .col-right, .col-center {
+  float: left;
+  width: calc(100% / 3);
+}
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
