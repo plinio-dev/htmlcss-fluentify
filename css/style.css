@@ -17,6 +17,7 @@ header {
 
 .wrapper {
   width: 80%;
+  height: 100px;
   margin: auto;
   position: relative;
 }
@@ -111,7 +112,7 @@ li {
 
 /* sezione centrale */
 section {
-  background-color: hsl(0deg 0% 83%);
+  background-color: #d3d3d3;
 }
 
 section h2 {
@@ -224,14 +225,51 @@ hr.solid2 {
 .bottom {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 .bottom h3 {
+  height: 200px;
   display: inline-block;
-  padding: 70px 0;
+  line-height: 200px;
   font-size: 30pt;
 }
 
 .bottom ul {
+  line-height: 200px;
+  position: absolute;
+  right: 0;
   display: inline-block;
+}
+
+.bottom li {
+  font-size: 16pt;
+  color: #8a8a8a;
+  font-weight: bold;
+}
+
+.triangle {
+  color: #8a8a8a;
+  font-size: 16pt;
+}
+.bottom ul li:nth-child(2) {
+  margin-left: 35px;
+  text-decoration: underline;
+}
+.bottom ul li:nth-child(3) {
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-left: 35px;
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 14%;
+  display: inline-block;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  color: white;
 }
